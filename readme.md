@@ -56,7 +56,7 @@ score = r2_score(y_true,y_predict)
 
 偏差、方差和模型的复杂度之间的关系如下:
 
-![](/14907888423241.jpg)
+![](/images/14907888423241.jpg)
 
 **有用的资源**
 [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
