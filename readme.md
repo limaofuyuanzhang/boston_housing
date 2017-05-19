@@ -33,7 +33,9 @@ from .fromnumeric import amax as max, amin as min, round_ as round
 具体区别可参考[numpy max vs amax vs maximum](http://stackoverflow.com/questions/33569668/numpy-max-vs-amax-vs-maximum)
 
 **有用的资源**
+
 [Numpy Quickstart tutorial](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
+
 [Numpy 接口文档](https://docs.scipy.org/doc/numpy/reference/routines.html)
 
 ## 决定系数
@@ -43,6 +45,7 @@ from .fromnumeric import amax as max, amin as min, round_ as round
 R<sup>2</sup>的数值范围从0至1，表示**目标变量**的预测值和实际值之间的相关程度平方的百分比。一个模型的R<sup>2</sup> 值为0还不如直接用**平均值**来预测效果好；而一个R<sup>2</sup> 值为1的模型则可以对目标变量进行完美的预测。从0至1之间的数值，则表示该模型中目标变量中有百分之多少能够用**特征**来解释。模型也可能出现负值的R<sup>2</sup>，这种情况下模型所做预测有时会比直接计算目标变量的平均值差很多。
 
 计算R2方法
+
 ```
 score = r2_score(y_true,y_predict)
 ```
@@ -59,7 +62,9 @@ score = r2_score(y_true,y_predict)
 ![](/images/14907888423241.jpg)
 
 **有用的资源**
+
 [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
+
 [偏差和方差有什么区别？](https://www.zhihu.com/question/20448464)
 
 ## 数据分割与重排
